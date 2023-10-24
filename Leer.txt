@@ -1,6 +1,0 @@
-Colores Utilizados
-- #E5B143
-- #333
-- #FDF6E3
-- #0000ff
-
