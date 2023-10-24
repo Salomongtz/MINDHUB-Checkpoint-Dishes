@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specials - Delicious Dishes</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Delicious Dishes</h1>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="" id="active">Specials</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="featured">
+            <h2>Featured Dishes</h2>
+            <artice class="dish">
+                <img src="./assets/images/vegetablefry.jpg" alt="vegetable stir-fry">
+                <h3>Vegetable Stir-fry</h3>
+                <p>Recipe: Colorful Vegetable Medley</p>
+            </artice>
+            <artice class="dish">
+                <img src="./assets/images/avocado.jpg" alt="Avocado Salad">
+                <h3>Avocado Salad</h3>
+                <p>Recipe: Fresh Avocado Delight</p>
+            </artice>
+            <artice class="dish">
+                <img src="./assets/images/mushroom.jpg" alt="Mushroom Risotto">
+                <h3>Mushroom Risotto</h3>
+                <p>Recipe: Creamy Mushroom Goodness</p>
+            </artice>
+        </section>
+        <section id="details">
+            <h2>Dish Details</h2>
+            <table>
+                <caption>Related Dishes</caption>
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Recipe</th>
+                        <th>Ingredients</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Vegetable Stir-fry</td>
+                        <td>Colorful Vegetable Medley</td>
+                        <td>Assorted Vegetables, Soy Sauce, Tofu</td>
+                    </tr>
+                    <tr>
+                        <td>Avocado Salad</td>
+                        <td>Fresh Avocado Delight</td>
+                        <td>Avocado, Greens, Dressing</td>
+                    </tr>
+                    <tr>
+                        <td>Musroom Risotto</td>
+                        <td>Creamy Mushroom Goodness</td>
+                        <td>Mushrooms, Arborio Rice, Broth</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="resources">
+            <h2>Additional Resources</h2>
+            <ul>
+                <a href="">
+                    <li>Cooking Tips</li>
+                </a>
+                <a href="">
+                    <li>Recipe Variations</li>
+                </a>
+                <a href="">
+                    <li>Kitchen Gadgets</li>
+                </a>
+                <a href="">
+                    <li>Food Blogs</li>
+                </a>
+                <a href="">
+                    <li>Culinary Workshops</li>
+                </a>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h5>Cohort FS052</h5>
+        <form action="show_data.html" method="get">
+            <fieldset>
+                <legend>Subscribe to recieve updates about our dishes</legend>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <input type="submit" value="Subscribe">
+            </fieldset>
+        </form>
+        <a href="mailto:deliciousdishes@mh.com">mailto:deliciousdishes@mh.com</a>
+    </footer>
+</body>
+
+</html>
